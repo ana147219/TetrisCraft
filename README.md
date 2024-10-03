@@ -15,7 +15,7 @@ Welcome to **Tetris Game**, a web-based version of the classic puzzle game. The 
 This project is built using HTML, CSS, and JavaScript, making it a great learning resource for those who want to understand game development in a web environment.
 
 <p align="center">
-  <img src="./picture1.png" alt="Game Start Screen" width="400"/>
+  <img src="./picture1.png" alt="Game Start Screen" width="300"/>
 </p>
 
 
