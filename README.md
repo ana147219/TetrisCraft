@@ -14,6 +14,9 @@ Welcome to **Tetris Game**, a web-based version of the classic puzzle game. The 
 
 This project is built using HTML, CSS, and JavaScript, making it a great learning resource for those who want to understand game development in a web environment.
 
+![Game Start Screen](./tetris-dodatno/picture1.png)
+
+
 ## Features
 - **Customizable game settings**: Choose block types and difficulty levels (easy, medium, hard).
 - **Real-time score tracking**: Keep an eye on your score as you stack blocks.
