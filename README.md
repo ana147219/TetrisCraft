@@ -41,9 +41,9 @@ Clone this repository to your local machine:
    
 ## Navigate to the project folder:
 
-	```bash
-	cd TetrisCraft
-	```
+```bash
+cd TetrisCraft
+```
 
 
 ## How to Play
