@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: beige;
+}
+
+#board{
+    height:750px;
+    width:300px;
+    display: flex;
+    align-items:start;
+    background-color: beige;
+    box-shadow:10px 10px 10px 10px darkslategrey;
+}
+
+#tetris{
+    background-color:bisque;
+}
+
+#generatedBlock{
+    box-shadow:10px 10px 10px 10px darkslategrey;
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+
+#score{
+    background-color: bisque;
+    box-shadow:10px 10px 10px 10px darkslategrey;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+
+
+

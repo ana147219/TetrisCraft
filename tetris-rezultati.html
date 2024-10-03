@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.min.css">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.min.css.map">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.bundle.min.js.map">
+    <script src="tetris-dodatno/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="tetris-rezultati.css"/>
+    <title>Tetris-rezultati</title>
+</head>
+<body>
+   <div class="container">
+        <div class="row">
+            <div class="col-lg-4" id="scores">
+                <h2>TOP 10</h2>
+                <div class="top5" id="0"></div>
+                <div class="top5" id="1"></div>
+                <div class="top5" id="2"></div>
+                <div class="top5" id="3"></div>
+                <div class="top5" id="4"></div>
+                <div class="top5" id="5"></div>
+                <div class="top5" id="6"></div>
+                <div class="top5" id="7"></div>
+                <div class="top5" id="8"></div>
+                <div class="top5" id="9"></div>
+            </div>
+            <div class="col-lg-4" id="lastDiv">
+                <h2>LAST_GAME</h2>
+                <div id="lastGame"></div>
+            </div>
+            <div id="redirection" class="col-lg-4">
+                <button id="play-again-btn">Play Again</button>
+                <button id="home-page-btn">Home Page</button>
+            </div>
+        </div>
+   </div>
+</body>
+<script src="tetris-rezultati.js"></script>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.min.css">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.min.css.map">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="tetris-dodatno/bootstrap.bundle.min.js.map">
+    <script src="tetris-dodatno/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="tetris-uputstvo.css"/>
+    <title>Tetris-uputstvo</title>
+</head>
+<body>
+   <div class="container">
+    <div class="row" id="heading">
+        <div class="col-lg-12"><h1>WELCOME TO TETRIS</h1></div>
+    </div>
+    <div class="row" id="steps">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>STEP1</h3>
+                <p>Start the game on the lowest level. Tetris game provides a Marathon Mode that lets you pick your level, 
+                    which will determine how fast the tetrominos fall. 
+                    The speed of the tetrominos fall will increase every time you complete one row to give you a challenge. There are 3 levels: beginer,medium and advanced</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>STEP2</h3>
+                <p> Move the tetrominos. You can move them left and right using left and right arrow, and you can rotate them in both directions using up arrow. 
+                    [up is clockwise], and You can also speed up their fall,known as "Soft Drop" used with the down arrow.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>STEP3</h3>
+                <p>Understand the different tetrominos. 
+                    There are seven different types of tetrominos: the I, O, L, J, S, Z, and T tetriminos.
+                    You are able to choose the tetrominos you want to play with.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>STEP4</h3>
+                <p>Complete lines to gain points and raise the level. 
+                    When a line of blocks is created, the entire line disappears, points are rewarded and the stack is pushed down. 
+                    The more lines completed at once, the more points gained. Completing the maximum number of lines at once, four, 
+                    is known as a 'Tetris' and can only be pulled off with the I-tetrimino.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>STEP5</h3>
+                <p>Check upcoming pieces and plan for them. This will become easier the more you play, don't rush yourself.</p>
+            </div>
+        </div>
+        <div class="row">
+           <div clss="col-lg-12">
+            <button id="play-btn">Play</button>
+            <button id="results-btn">SEE RESULTS</button>
+           </div>
+        </div>
+    </div>
+
+    <div class="row" id="settings">
+        <div class="col-lg-3">
+            <input type="range" min="1" max="3" value="1" class="slider" id="level">
+            <span id="levelValue">beginer</span>
+        </div>
+        <div class="col-lg-9">
+            <table class="table">
+                <tr>
+                    <td class="cell">
+                        <input type="checkbox" id="0">
+                        <canvas  id="0canvas"  class="canvas"></canvas>
+                    </td>
+                    <td class="cell">
+                        <input type="checkbox" id="1">
+                        <canvas  id="1canvas"  class="canvas"></canvas>
+                    </td>
+                    <td class="cell">
+                        <input type="checkbox" id="2">
+                        <canvas  id="2canvas"  class="canvas"></canvas>
+                    </td>
+                    <td class="cell">
+                        <input type="checkbox" id="3">
+                        <canvas  id="3canvas"  class="canvas centered-cell" rowspan="2"></canvas>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cell">
+                        <input type="checkbox" id="4">
+                        <canvas  id="4canvas"  class="canvas"></canvas>
+                    </td>
+                    <td class="cell">
+                        <input type="checkbox" id="5">
+                        <canvas  id="5canvas"  class="canvas"></canvas>
+                    </td>
+                    <td class="cell">
+                        <input type="checkbox" id="6">
+                        <canvas  id="6canvas"  class="canvas"></canvas>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="tetris-uputstvo.js"></script>
+</html>
